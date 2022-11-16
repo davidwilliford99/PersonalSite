@@ -1,0 +1,41 @@
+/* SVG Animations */
+
+
+/* Head Movement Animation */
+@keyframes head-move {
+    0% {
+        transform: rotateZ(15deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+#entire-head {
+    animation: head-move 2s infinite alternate ease;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+/* Hand Movement Animation */
+@keyframes hand-move {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+#left-hand {
+    animation: hand-move 0.5s infinite alternate ease;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#right-hand {
+    animation: hand-move 0.5s infinite alternate-reverse ease;
+    transform-origin: center;
+    transform-box: fill-box;
+}

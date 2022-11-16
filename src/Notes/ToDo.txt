@@ -1,0 +1,21 @@
+Things to do when hosted 
+
+1. Re-activate contact form for new url
+2. Add a Thank you page when someone contacts me
+3. Works page
+
+
+Works to post on works page
+ - Github Links
+ - TextArt 
+ - Autonomic Solutions web pages 
+ - Autonomic Solutions backend 
+ - This website 
+ - Related Coursework/Knowledge 
+
+
+ for each work, include...
+  - Date 
+  - Tech used 
+  - Who I wiorked with 
+  - 

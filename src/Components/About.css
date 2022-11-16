@@ -1,0 +1,35 @@
+/* flyer rotation */
+@keyframes flyer-move {
+    0% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(-3deg);
+    }
+}
+
+#guy {
+    animation: flyer-move 3s infinite alternate ease;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+@keyframes cloud-move {
+    0% {
+        transform: translateX(-15px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#top-cloud {
+    animation: cloud-move 5s infinite alternate ease;
+}
+#left-cloud {
+    animation: cloud-move 6s infinite alternate-reverse ease;
+}
+#right-cloud {
+    animation: cloud-move 7s infinite alternate ease;
+}

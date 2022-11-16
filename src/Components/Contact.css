@@ -1,0 +1,56 @@
+/* SVG Animations */
+
+
+/* Head Movement Animation */
+@keyframes head-move {
+    0% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+
+#head {
+    animation: head-move 2s infinite alternate ease;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+/* Letter Movement  */
+@keyframes letter-move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+#letter {
+    animation: letter-move 2s infinite alternate ease;
+}
+
+/* Leaf movement */
+@keyframes leaf-move {
+    0% {
+        transform: rotateZ(2deg);
+    }
+    100% {
+        transform: rotateZ(-2deg);
+    }
+}
+
+#right-leaf {
+    animation: leaf-move 3s infinite alternate ease;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+#left-leaf {
+    animation: leaf-move 4s infinite alternate ease;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
