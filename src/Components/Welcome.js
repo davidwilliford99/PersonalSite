@@ -21,7 +21,7 @@ function Welcome() {
 
                 </div>
 
-                <div className='flex flex-col items-center justify-center w-1/2 my-20 xl:my-0 xl:w-2/5 px-3'>
+                <div className='flex flex-col items-center justify-center w-2/3 my-20 xl:my-0 xl:w-2/5 px-3'>
                     {/* <img src={Programmer} alt='programmer logo' className=''></img> */}
                     <svg className='min-h-fit' viewBox="0 0 851 741" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="undraw_developer_activity_re_39tg 1" clip-path="url(#clip0_1_2)">

@@ -20,7 +20,7 @@ function Contact() {
           {/* TODO: Add a way to thank the person once they send the email */}
           </div>
 
-        <div className='w-1/2 lg:w-2/5 my-20 xl:my-0'>
+        <div className='w-2/3 lg:w-2/5 my-20 xl:my-0'>
           <svg  className='min-h-fit' viewBox="0 0 704 574" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="undraw_envelope_re_f5j4 1" clip-path="url(#clip0_1_2)">
               <g id="right-leaf">

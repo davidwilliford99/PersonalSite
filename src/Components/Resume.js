@@ -10,7 +10,7 @@ function Resume() {
             <a href={resumePDF} download class="text-white text-center text-sm font-semibold px-10 py-4 rounded-lg bg-yellow-600 duration-500 hover:bg-violet-500 m-10">
                 Download Resume
             </a>
-            <img src={resume} alt='resume screenshot' className="object-fill w-2/5 pb-10"></img>
+            <img src={resume} alt='resume screenshot' className="object-fill w-11/12 md:w-2/5 pb-10"></img>
         </div>
 
     );
