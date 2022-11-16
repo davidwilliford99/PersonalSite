@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <Header/>
           <Routes>
-            <Route exact path="/Resume-UI" element={ <Welcome/> } />
+            <Route exact path="/PersonalSite" element={ <Welcome/> } />
             <Route exact path='/Welcome' element={ <Welcome /> }/>
             <Route exact path='/About' element={ <About /> }/>
             <Route exact path='/Resume' element={ <Resume /> }/>
