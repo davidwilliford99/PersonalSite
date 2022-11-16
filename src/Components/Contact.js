@@ -12,7 +12,7 @@ function Contact() {
               <input type="text" placeholder='Your Name' name="Name" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
               <input type="email" placeholder='Email Address' name="Email" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
               <input type="hidden" name="_captcha" value="false"></input>
-              <input type="hidden" name='_next' value='https://davidwilliford99.github.io/Resume-UI/#/ThankYou'></input>
+              <input type="hidden" name='_next' value='https://davidwilliford99.github.io/PersonalSite/#/ThankYou'></input>
               <textarea type="text"  rows="5" cols="10" placeholder="Write your message here" name="message" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></textarea>
               <button type='submit' className='text-white text-center text-sm font-semibold px-10 mb-10 py-4 rounded-lg bg-yellow-600 duration-500 hover:bg-violet-500 mx-5 mt-8'>Send Email</button>
           </form>
