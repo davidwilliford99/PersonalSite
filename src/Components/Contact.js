@@ -6,20 +6,18 @@ function Contact() {
     <div className='h-full 2xl:h-screen bg-zinc-900 flex flex-col xl:flex-row items-center justify-center xl:px-20'>
 
         <div className='flex flex-col w-full lg:mr-20 xl:w-3/5 min'>
-          <h1 className='lg:text-7xl text-5xl text-white text-center pt-10 xl:mt-0'>Contact Me</h1>
-          <h3 className='text-xl text-center text-gray-400 mt-5 mb-3 xl:mb-5'>All messages are appreciated, and are answered ASAP</h3>
+          <h1 className='lg:text-7xl text-5xl text-white text-center pt-20 xl:mt-0'>Contact Me</h1>
+          <h3 className='text-xl text-center text-gray-400 mt-5 mb-3 xl:mb-5'>All messages are appreciated and answered ASAP</h3>
 
 
-          <form action="https://formsubmit.co/WillifordD21@students.ecu.edu" method='POST' className='w-full flex flex-col items-center justify-center'>
-              <input type="text" placeholder='Your Name' name="Name" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
-              <input type="email" placeholder='Email Address' name="Email" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
-              <input type="hidden" name="_captcha" value="false"></input>
-              <input type="hidden" name='_next' value='https://davidwilliford99.github.io/PersonalSite/#/ThankYou'></input>
-              <textarea type="text"  rows="5" cols="10" placeholder="Write your message here" name="message" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></textarea>
-              <button type='submit' className='text-white text-center text-sm font-semibold px-10 mb-10 py-4 rounded-lg bg-yellow-600 duration-500 hover:bg-violet-500 mx-5 mt-8'>Send Email</button>
-          </form>
-
-          {/* TODO: Add a way to thank the person once they send the email */}
+            <form action="https://formsubmit.co/WillifordD21@students.ecu.edu" method='POST' className='w-full flex flex-col items-center justify-center'>
+                <input type="text" placeholder='Your Name' name="Name" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
+                <input type="email" placeholder='Email Address' name="Email" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
+                <input type="hidden" name="_captcha" value="false"></input>
+                <input type="hidden" name='_next' value='https://davidwilliford99.github.io/PersonalSite/#/ThankYou'></input>
+                <textarea type="text"  rows="5" cols="10" placeholder="Write your message here" name="message" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></textarea>
+                <button type='submit' className='text-white text-center text-sm font-semibold px-10 mb-10 py-4 rounded-lg bg-yellow-600 duration-500 hover:bg-violet-500 mx-5 mt-8'>Send Email</button>
+            </form>
           </div>
 
         <div className='w-2/3 lg:w-2/5 my-20 xl:my-0'>

@@ -18,12 +18,12 @@ import RS3 from './../assets/RS3.png';
 function Works() {
   return (
     <div className='h-full bg-zinc-900 flex flex-col items-center justify-center xl:px-20'>
-        <h1 className='lg:text-7xl text-5xl text-white text-center my-32 2xl:my-32 xl:pt-20 xl:mt-0'>My Works</h1>
+        <h1 className='lg:text-7xl text-7xl text-white text-center my-20 lg:my-0 2xl:my-32 xl:pt-20 xl:mt-0'>My Works</h1>
 
 
         <div className='w-full flex flex-col xl:flex-row items-center justify-center mb-30 border-b-2'>
             <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center pb-20'>
-                <h2 className='text-3xl text-center text-white'>ACP Web-App (Autonomic Solutions)</h2>
+                <h2 className='text-3xl text-center text-white'>ACP Web-App</h2>
                 <h3 className='text-xl text-center text-white my-5'>Angular, Typescript, Java Spring, Git</h3>
                 <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto'>During my internship at Autonomic Solutions, I worked on the ACP webapp. ACP stands for "Autonomic Computing Platform". This application simplifies the process of creating and managing cloud infrastrucures. I worked under 2 senior devs and along 2 other interns, and gathered equal experience with frontend and backend web development (Angular & Java Spring). I was very fortunate to work along with these people, and the senior devs made sure that us interns got plenty of hands on experience. Sadly I can not share the repository for this application, since I do not own the software.</p>
             </div>
