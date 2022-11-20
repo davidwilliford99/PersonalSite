@@ -7,7 +7,7 @@ function Contact() {
 
         <div className='flex flex-col w-full lg:mr-20 xl:w-3/5 min'>
           <h1 className='lg:text-7xl text-5xl text-white text-center pt-20 xl:mt-0'>Contact Me</h1>
-          <h3 className='text-xl text-center text-gray-400 mt-5 mb-3 xl:mb-5'>All messages are appreciated and answered ASAP</h3>
+          <h3 className='text-xl text-center text-gray-400 mt-5 mb-3 xl:mb-5'>All messages are appreciated and answered ASAP via email</h3>
 
 
             <form action="https://formsubmit.co/WillifordD21@students.ecu.edu" method='POST' className='w-full flex flex-col items-center justify-center'>
@@ -15,8 +15,15 @@ function Contact() {
                 <input type="email" placeholder='Email Address' name="Email" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
                 <input type="hidden" name="_captcha" value="false"></input>
                 <input type="hidden" name='_next' value='https://davidwilliford99.github.io/PersonalSite/#/ThankYou'></input>
-                <textarea type="text"  rows="5" cols="10" placeholder="Write your message here" name="message" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></textarea>
-                <button type='submit' className='text-white text-center text-sm font-semibold px-10 mb-10 py-4 rounded-lg bg-yellow-600 duration-500 hover:bg-violet-500 mx-5 mt-8'>Send Email</button>
+                <textarea type="text"  rows="5" cols="10" placeholder="Write your message here" name="message" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white mb-10'></textarea>
+                <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
+                                    active:translate-y-2  active:[box-shadow:0_0px_0_0_#7c3aed,0_0px_0_0_#7c3aed]
+                                    active:border-b-[0px]
+                                    transition-all duration-150 [box-shadow:0_10px_0_0_#854d0e,0_15px_0_0_#27272a]
+                                    border-b-[1px] border-yellow-700 mx-5 px-10 my-6 sm:my-0
+                                '>
+                                    <button type='submit' class='flex flex-col justify-center items-center h-full text-white font-bold text-lg'>Send Message</button>
+                </div>
             </form>
           </div>
 

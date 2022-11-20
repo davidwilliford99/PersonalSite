@@ -12,11 +12,29 @@ function Welcome() {
                 <div className='flex flex-col items-center justify-center xl:mx-32 xl:w-3/5 min'>
                     <h1 className='xl:text-9xl text-9xl text-white text-center mt-10 xl:mt-0 pt-20 2xl:pt-0'>Hi</h1>
                     <h2 className='text-4xl xl:text-6xl text-white mt-10 text-center'>I'm David Williford</h2>
-                    <h3 className='text-xl text-center text-gray-400 mt-10'>I'm a computer science student at East Carolina University, aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering.</h3>
+                    <h3 className='text-xl text-center text-gray-400 mt-10 leading-8'>I'm a computer science student at East Carolina University, aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering.</h3>
 
-                    <div className='flex  flex-col sm:flex-row my-20 items-center justify-center'>
-                        <Link to="/About" class="text-white text-center text-sm font-semibold px-10 my-8 py-4 rounded-lg sm:my-0 w-full sm:w-auto bg-yellow-600 duration-500 hover:bg-violet-500 mx-5">More About Me</Link>
-                        <Link to="/Resume" class="text-white text-center text-sm font-semibold px-10 py-4 rounded-lg w-full sm:w-auto bg-yellow-600 duration-500 hover:bg-violet-500 mx-5">See my Resume</Link>
+                    <div className='flex flex-col sm:flex-row my-20 items-center justify-center w-full'>
+                        
+                        <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
+                                    active:translate-y-2  active:[box-shadow:0_0px_0_0_#7c3aed,0_0px_0_0_#7c3aed]
+                                    active:border-b-[0px]
+                                    transition-all duration-150 [box-shadow:0_10px_0_0_#854d0e,0_15px_0_0_#27272a]
+                                    border-b-[1px] border-yellow-700 mx-5 px-10 my-6 sm:my-0
+                                '>
+                                    <Link to="/About" class='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>More About Me</Link>
+                        </div>
+
+                        <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
+                                    active:translate-y-2  active:[box-shadow:0_0px_0_0_#7c3aed,0_0px_0_0_#7c3aed]
+                                    active:border-b-[0px]
+                                    transition-all duration-150 [box-shadow:0_10px_0_0_#854d0e,0_15px_0_0_#27272a]
+                                    border-b-[1px] border-yellow-700 mx-5 px-10 my-6 sm:my-0
+                                '>
+                                    <Link to="/Resume" class='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>See My Resume</Link>
+                        </div>
+
+
                     </div>
 
                 </div>

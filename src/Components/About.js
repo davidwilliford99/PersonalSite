@@ -11,17 +11,17 @@ function About() {
 
           <div className='w-full flex flex-col items-center justify-center'>
               <h2 className='text-3xl text-center text-white'>Brief Introduction</h2>
-              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto'>I am David Williford, a computer science student at East Carolina University, aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering. My hobbies outside of tech include fitness, listening to podcasts, learning random things, and hanging out with friends. I currently live in Winterville, NC.</p>
+              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto leading-8'>I am David Williford, a computer science student at East Carolina University, aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering. My hobbies outside of tech include fitness, listening to podcasts, learning random things, and hanging out with friends. I currently live in Winterville, NC.</p>
           </div>
 
           <div className='w-full flex flex-col items-center justify-center'>
               <h2 className='text-3xl text-center text-white mt-10'>My Mindset</h2>
-              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto'>Like most people intersted in computing, I am always thinking of the best and most effecient ways to solve problems. I always break down problems into actionable steps, and never attempt to solve a problem until I understand it conceptually. I have a very logical and linear thought process, and I enjoy things that are simple yet elegant.</p>
+              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto leading-8'>Like most people intersted in computing, I am always thinking of the best and most effecient ways to solve problems. I always break down problems into actionable steps, and never attempt to solve a problem until I understand it conceptually. I have a very logical and linear thought process, and I enjoy things that are simple yet elegant.</p>
           </div>
 
           <div className='w-full flex flex-col items-center justify-center mb-5'>
               <h2 className='text-3xl text-center text-white mt-10'>My Personality</h2>
-              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto'>I am a very relaxed person to be around. I rarely take things personally, and always take responsibily if something goes wrong. I enjoy people, and enjoy school/office settings where I can converse and share ideas with peers. I am always working on my social skills, and I am good at giving/taking criticism without it resulting in conflict.</p>
+              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto leading-8'>I am a very relaxed person to be around. I rarely take things personally, and always take responsibily if something goes wrong. I enjoy people, and enjoy school/office settings where I can converse and share ideas with peers. I am always working on my social skills, and I am good at giving/taking criticism without it resulting in conflict.</p>
           </div>
 
         </div>
