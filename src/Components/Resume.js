@@ -1,5 +1,5 @@
 import React from "react";
-import resume from './../assets/Resume.png';
+import resume from './../assets/Resume.jpg';
 import resumePDF from './../assets/Resume.pdf';
 
 
