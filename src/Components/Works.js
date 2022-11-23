@@ -19,7 +19,7 @@ function Works() {
   return (
     <div className='h-full bg-zinc-900 flex flex-col items-center justify-center xl:px-20'>
         
-        <h1 className='lg:text-8xl text-7xl text-white text-center my-20 lg:my-0 2xl:my-32 xl:pt-20 xl:mt-0'>My Works</h1>
+        <h1 className='lg:text-7xl text-5xl text-white text-center py-20 xl:pb-0 xl:mt-0'>My Works</h1>
 
 
         <div className='w-full flex flex-col xl:flex-row items-center justify-center mb-30 border-b-2'>
