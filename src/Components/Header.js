@@ -16,11 +16,11 @@ function Header() {
             </Link>
             </div>
 
-            <div class="hidden sm:flex sm:items-center ml-24">
-              <Link to="/Works" class="text-white text-center text-md font-semibold hover:text-zinc-900 duration-500 mx-4">Works</Link>
-              <Link to="/Contact" class="text-white text-center text-md font-semibold hover:text-zinc-900  duration-500 mx-4">Contact</Link>
-              <Link to="/About" class="text-white text-center text-md font-semibold hover:text-zinc-900  duration-500 mx-4">About</Link>
-              <Link to="/Resume" class="text-white text-center text-md font-semibold duration-500 hover:text-zinc-900 ">Resume</Link>
+            <div class="hidden sm:flex sm:items-center ml-24 text-slate-100">
+              <Link to="/Works" class="text-center text-md font-semibold hover:text-zinc-900 duration-500 mx-4">Works</Link>
+              <Link to="/Contact" class="text-center text-md font-semibold hover:text-zinc-900  duration-500 mx-4">Contact</Link>
+              <Link to="/About" class="text-center text-md font-semibold hover:text-zinc-900  duration-500 mx-4">About</Link>
+              <Link to="/Resume" class="text-center text-md font-semibold duration-500 hover:text-zinc-900 ">Resume</Link>
             </div>
 
             <div class="lg:visible invisible hidden sm:flex sm:items-center">

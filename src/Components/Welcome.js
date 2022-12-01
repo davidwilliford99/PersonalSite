@@ -2,17 +2,28 @@ import React from 'react';
 // import Programmer from './../assets/programmer.svg';
 import './Welcome.css';
 import { Link } from 'react-router-dom';
+import { motion, useScroll } from "framer-motion";
+
 
 
 function Welcome() {
-    return (
-        <div>
-            <div className='h-full 2xl:h-screen bg-zinc-900 flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
 
-                <div className='flex flex-col items-center justify-center xl:mx-32 xl:w-3/5 min'>
-                    <h1 className='xl:text-9xl text-9xl text-white text-center mt-10 xl:mt-0 pt-20 2xl:pt-0'>Hi</h1>
-                    <h2 className='text-4xl xl:text-6xl text-white mt-10 text-center'>I'm David Williford</h2>
-                    <h3 className='text-xl text-center text-gray-400 mt-10 leading-8'>I'm a computer science student at East Carolina University, aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering.</h3>
+    // declaring scroll variable
+    const { scrollYProgress } = useScroll();
+
+    return (
+        <div className='bg-zinc-900 overflow-hidden'>
+            <div className='h-full 2xl:h-screen flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
+
+                <motion.div 
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5 }}
+                        className='flex flex-col items-center justify-center xl:mx-32 xl:w-3/5 min'
+                    >
+                    <motion.h1 className='xl:text-9xl text-9xl text-white text-center mt-10 xl:mt-0 pt-20 2xl:pt-0'>Hi</motion.h1>
+                    <motion.h2 className='text-4xl xl:text-6xl text-white mt-10 text-center'>I'm David Williford</motion.h2>
+                    <motion.h3 className='text-xl text-center text-gray-400 mt-10 leading-8'>I am a computer science student at East Carolina University. I am interested in software engineering, technology, mathematics and algorithms.</motion.h3>
 
                     <div className='flex flex-col sm:flex-row my-20 items-center justify-center w-full'>
                         
@@ -37,7 +48,7 @@ function Welcome() {
 
                     </div>
 
-                </div>
+                </motion.div>
 
                 <div className='flex flex-col items-center justify-center w-2/3 my-20 xl:my-0 xl:w-2/5 px-3'>
                     {/* <img src={Programmer} alt='programmer logo' className=''></img> */}
@@ -141,6 +152,19 @@ function Welcome() {
                 </div>
 
             </div>
+
+
+            {/*  Section 2 */}
+            {/* <div className='text-slate-200 xl:mx-20'>
+                <motion.h1 style={{ translateX: scrollYProgress }} className='xl:text-9xl text-9xl text-white mt-10 xl:mt-0 pt-20 2xl:pt-0'>I Am Interested In...</motion.h1>
+                <div className='flex flex-col justify-center'>
+                    <h2>Web Development</h2>
+                    <h2>Mobile Development</h2>
+                    <h2>Data Structures & Algorithms</h2>
+                    <h2>Programming</h2>
+                    <h2>And Mathematics</h2>
+                </div>
+            </div> */}
 
         </div>
     );

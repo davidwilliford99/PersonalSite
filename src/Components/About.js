@@ -11,7 +11,7 @@ function About() {
 
           <div className='w-full flex flex-col items-center justify-center'>
               <h2 className='text-3xl text-center text-white'>Brief Introduction</h2>
-              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto leading-8'>I am David Williford, a computer science student at East Carolina University, aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering. My hobbies outside of tech include fitness, listening to podcasts, learning random things, and hanging out with friends. I currently live in Winterville, NC.</p>
+              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto leading-8'>I am David Williford, a computer science student aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering. My hobbies outside of tech include fitness, listening to podcasts, learning random things, and hanging out with friends. I currently live in Winterville, NC.</p>
           </div>
 
           <div className='w-full flex flex-col items-center justify-center'>
