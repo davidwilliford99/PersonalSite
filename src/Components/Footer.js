@@ -65,7 +65,7 @@ function Footer() {
                     <h2>AWS/Cloud</h2>
                 </div>
                 <div id='footer-item' className='mb-2'>
-                    <Link to="/Resume" className='text-yellow-600 font-semibold hover:text-zinc-900 transition-colors'>Find Out More!</Link>      
+                    <Link to="/Resume" className='invisible lg:visible text-yellow-600 font-semibold hover:text-zinc-900 transition-colors'>Find Out More!</Link>      
                 </div>
             </div>
 
