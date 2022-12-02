@@ -1,6 +1,6 @@
 import React from 'react';
 import CatLogo from '../assets/logo.png';
-import resumePDF from './../assets/Resume.pdf';
+import resumePDF from './../assets/ResumeDOCX.docx';
 import { Link } from 'react-router-dom';
 
 
@@ -25,7 +25,7 @@ function Header() {
 
             <div class="lg:visible invisible hidden sm:flex sm:items-center">
               <Link to="/Contact" class="text-white text-sm font-semibold hover:text-zinc-900  mr-4 duration-500">Email</Link>
-              <a href={resumePDF} download class="text-white text-sm font-semibold border px-4 py-2 rounded-lg hover:text-yellow-600 hover:border-yellow-600 duration-500">Download Resume</a>
+              <a href={resumePDF} download="DavidWilliford-Resume" class="text-white text-sm font-semibold border px-4 py-2 rounded-lg hover:text-yellow-600 hover:border-yellow-600 duration-500">Download Resume</a>
             </div>
 
             <div class="sm:hidden cursor-pointer">

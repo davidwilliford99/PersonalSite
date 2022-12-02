@@ -1,6 +1,6 @@
 import React from "react";
 import resume from './../assets/Resume.jpg';
-import resumePDF from './../assets/Resume.pdf';
+import resumePDF from './../assets/ResumeDOCX.docx';
 
 
 function Resume() {
@@ -12,7 +12,7 @@ function Resume() {
                                     active:border-b-[0px]
                                     transition-all duration-150 [box-shadow:0_10px_0_0_#854d0e,0_15px_0_0_#27272a]
                                     border-b-[1px] border-yellow-700 mx-10 px-10 my-6 sm:my-0'>
-                                    <a href={resumePDF} download class='flex flex-col justify-center items-center h-full text-white font-bold text-lg'>Download Resume</a>
+                                    <a href={resumePDF} download="DavidWilliford-Resume" class='flex flex-col justify-center items-center h-full text-white font-bold text-lg'>Download Resume</a>
             </div>
             <img src={resume} alt='resume screenshot' className="object-fill w-11/12 md:w-2/5 pb-10 mt-10"></img>
         </div>
