@@ -2,14 +2,11 @@ import React from 'react';
 // import Programmer from './../assets/programmer.svg';
 import './Welcome.css';
 import { Link } from 'react-router-dom';
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 
 
 
 function Welcome() {
-
-    // declaring scroll variable
-    const { scrollYProgress } = useScroll();
 
     return (
         <div className='bg-zinc-900 overflow-hidden'>
@@ -50,7 +47,7 @@ function Welcome() {
 
                 </motion.div>
 
-                <div className='flex flex-col items-center justify-center w-2/3 my-20 xl:my-0 xl:w-2/5 px-3'>
+                <div className='flex flex-col items-center justify-center w-full md:w-2/3 lg:w-3/5 xl:w-2/5 my-20 xl:my-0 px-3'>
                     {/* <img src={Programmer} alt='programmer logo' className=''></img> */}
                     <svg className='min-h-fit' viewBox="0 0 851 741" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="undraw_developer_activity_re_39tg 1" clip-path="url(#clip0_1_2)">
