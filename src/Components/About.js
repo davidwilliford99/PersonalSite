@@ -8,7 +8,7 @@ function About() {
     <div className='overflow-hidden h-full xl:py-20 bg-zinc-900 flex flex-col xl:flex-row items-center justify-center xl:px-20 overflow-x-hidden'>
 
         <motion.div 
-                initial={{ opacity: 0, y: 100 }}
+                initial={{ opacity: .1, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} 
                 className='flex flex-col w-full lg:mr-20 xl:w-3/5'

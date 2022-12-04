@@ -13,7 +13,7 @@ function Welcome() {
             <div className='h-full 2xl:h-screen flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
 
                 <motion.div 
-                        initial={{ opacity: 0, scale: 0.9 }}
+                        initial={{ opacity: 0, scale: 0.98 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5 }}
                         className='flex flex-col items-center justify-center xl:mx-32 xl:w-3/5 min'

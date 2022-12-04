@@ -22,7 +22,7 @@ function Works() {
     <div className='h-full bg-zinc-900'>
         <motion.div 
                 className='flex flex-col items-center justify-center xl:px-20'
-                initial={{ opacity: 0, y: 100 }}
+                initial={{ opacity: .1, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} 
                 >

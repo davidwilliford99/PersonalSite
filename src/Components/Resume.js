@@ -8,12 +8,12 @@ function Resume() {
     return (
         <div className="h-screen*2 bg-zinc-900">
             <motion.div 
-                className="flex flex-col items-center xl:px-20"
-                initial={{ opacity: 0, scale: 0.9 }}
+                className="flex flex-col items-center pb-40"
+                initial={{ opacity: 0, scale: 0.98 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }} 
                 >
-                <h1 className='lg:text-7xl text-5xl text-white text-center pt-24 xl:mt-0 mb-12'>My Resume</h1>
+                <h1 className='lg:text-7xl text-5xl text-white text-center pt-32 xl:mt-0 mb-12'>My Resume</h1>
                 <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
                                         active:translate-y-2  active:[box-shadow:0_0px_0_0_#7c3aed,0_0px_0_0_#7c3aed]
                                         active:border-b-[0px]

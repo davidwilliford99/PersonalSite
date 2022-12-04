@@ -7,7 +7,7 @@ function Contact() {
     <div className='h-full 2xl:h-screen bg-zinc-900 flex flex-col xl:flex-row items-center justify-center xl:px-20 xl:pb-10'>
 
         <motion.div     
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }} 
               className='flex flex-col w-full lg:mr-20 xl:w-3/5 min'
