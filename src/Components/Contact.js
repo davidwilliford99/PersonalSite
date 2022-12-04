@@ -1,11 +1,17 @@
 import React from 'react';
 import './Contact.css';
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
     <div className='h-full 2xl:h-screen bg-zinc-900 flex flex-col xl:flex-row items-center justify-center xl:px-20 xl:pb-10'>
 
-        <div className='flex flex-col w-full lg:mr-20 xl:w-3/5 min'>
+        <motion.div     
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }} 
+              className='flex flex-col w-full lg:mr-20 xl:w-3/5 min'
+              >
           <h1 className='lg:text-7xl text-5xl text-white text-center pt-20 xl:mt-0'>Contact Me</h1>
           <h3 className='text-xl text-center text-gray-400 mt-5 mb-3 xl:mb-5'>All messages are appreciated and answered ASAP via email</h3>
 
@@ -25,7 +31,7 @@ function Contact() {
                                     <button type='submit' class='flex flex-col text-center justify-center items-center h-full text-white font-bold text-lg'>Send Message</button>
                 </div>
             </form>
-          </div>
+          </motion.div>
 
         <div className='w-full md:w-2/3 lg:w-3/5 xl:w-2/5 mt-20 pt-20'>
           <svg  className='min-h-fit' viewBox="0 0 704 574" fill="none" xmlns="https://www.w3.org/2000/svg">
