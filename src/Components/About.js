@@ -28,7 +28,7 @@ function About() {
 
         <div className='w-2/3 my-20 xl:my-0 lg:w-2/5'>
             {/* SVG here  */}
-            <svg className='min-h-fit' viewBox="0 0 624 752" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='min-h-fit' viewBox="0 0 624 752" fill="none" xmlns="https://www.w3.org/2000/svg">
                 <g id="undraw_air_support_re_nybl 1" clip-path="url(#clip0_1_44)">
                 <path id="Vector" d="M511.616 98.8642C538.917 98.8642 561.048 76.7327 561.048 49.4321C561.048 22.1315 538.917 0 511.616 0C484.316 0 462.184 22.1315 462.184 49.4321C462.184 76.7327 484.316 98.8642 511.616 98.8642Z" fill="#FF6584"/>
                 <g id="top-cloud">

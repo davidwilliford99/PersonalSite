@@ -28,7 +28,7 @@ function Contact() {
           </div>
 
         <div className='w-full md:w-2/3 lg:w-3/5 xl:w-2/5 mt-20 pt-20'>
-          <svg  className='min-h-fit' viewBox="0 0 704 574" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg  className='min-h-fit' viewBox="0 0 704 574" fill="none" xmlns="https://www.w3.org/2000/svg">
               <g id="undraw_envelope_re_f5j4 1" clip-path="url(#clip0_1_2)">
               <g id="right-leaf">
               <path id="Path 461" d="M206.298 540.321C208.984 542.873 212.282 544.69 215.874 545.597C219.466 546.504 223.231 546.471 226.807 545.5C235.971 542.899 242.19 534.631 247.71 526.867L264.044 503.908L250.279 506.432C240.379 508.247 230.235 510.152 221.614 515.346C212.993 520.54 206.088 529.812 206.634 539.862" fill="#E6E6E6"/>

@@ -13,7 +13,7 @@ function ThankYou() {
       </div>
 
       <div className='w-3/4 xl:w-2/5 flex flex-col items-center justify-center m-20'>
-        <svg className='min-h-fit' viewBox="0 0 499 647" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className='min-h-fit' viewBox="0 0 499 647" fill="none" xmlns="https://www.w3.org/2000/svg">
           <g id="undraw_letter_re_8m03 1" clip-path="url(#clip0_1_29)">
           <path id="Vector" d="M498.099 644.224H174.066V646.465H498.099V644.224Z" fill="#3F3D56"/>
           <g id="string">
