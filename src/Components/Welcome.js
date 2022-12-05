@@ -13,9 +13,9 @@ function Welcome() {
             <div className='h-full 2xl:h-screen flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
 
                 <motion.div 
-                        initial={{ opacity: 0, scale: 0.98 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5 }}
+                        initial={{ opacity: .1, y: 50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }} 
                         className='flex flex-col items-center justify-center xl:mx-32 xl:w-3/5 min'
                     >
                     <motion.h1 className='xl:text-9xl text-9xl text-white text-center mt-10 xl:mt-0 pt-20 2xl:pt-0'>Hi</motion.h1>

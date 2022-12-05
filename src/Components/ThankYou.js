@@ -1,16 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ThankYou.css';
+import { motion } from "framer-motion";
+
 
 function ThankYou() {
   return (
     <div className='h-full 2xl:h-screen bg-zinc-900 flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
 
-      <div className='xl:w-3/5 flex flex-col items-center justify-center'>
+      <motion.div 
+            initial={{ opacity: .1, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }} 
+            className='xl:w-3/5 flex flex-col items-center justify-center'>
         <h1 className='xl:text-8xl text-7xl text-white text-center mt-10 xl:mt-0 pt-20 2xl:pt-0'>Email Sent!</h1>
         <p className='w-full text-xl text-center text-gray-400 my-10 mb-20'>Thanks for reaching out! All messages are appreciated.</p>
-        <Link to="/Welcome" className="text-white text-center text-sm font-semibold px-10 my-8 py-4 rounded-lg sm:my-0 w-2/3 xl:w-auto sm:w-auto bg-yellow-600 duration-500 hover:bg-violet-500 mx-5">Back To Welcome Page</Link>
-      </div>
+        <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
+                                    active:translate-y-2  active:[box-shadow:0_0px_0_0_#7c3aed,0_0px_0_0_#7c3aed]
+                                    active:border-b-[0px]
+                                    transition-all duration-150 [box-shadow:0_10px_0_0_#854d0e,0_15px_0_0_#27272a]
+                                    border-b-[1px] border-yellow-700 mx-5 px-10 my-6 sm:my-0
+                                '>
+                                    <Link to="/Welcome" class='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>Return to Home Page</Link>
+        </div>      
+      </motion.div>
 
       <div className='w-3/4 xl:w-2/5 flex flex-col items-center justify-center m-20'>
         <svg className='min-h-fit' viewBox="0 0 499 647" fill="none" xmlns="https://www.w3.org/2000/svg">

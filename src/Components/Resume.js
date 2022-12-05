@@ -9,8 +9,8 @@ function Resume() {
         <div className="h-screen*2 bg-zinc-900">
             <motion.div 
                 className="flex flex-col items-center pb-40"
-                initial={{ opacity: 0, scale: 0.98 }}
-                animate={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: .1, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} 
                 >
                 <h1 className='lg:text-7xl text-5xl text-white text-center pt-32 xl:mt-0 mb-12'>My Resume</h1>
