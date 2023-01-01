@@ -65,7 +65,7 @@ function Works() {
             
             <div className='w-full flex flex-col xl:flex-row items-center justify-center mb-30 border-b-2'>
                 <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center py-20'>
-                    <h2 className='text-3xl text-center text-white'>CollegMajors Web-App</h2>
+                    <h2 className='text-3xl text-center text-white'>MajorStatistics Web-App</h2>
                     <h3 className='text-xl text-center text-white py-5 mb-5'>React, Spring Boot, MySQL</h3>
                     <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
                                         active:translate-y-2  active:[box-shadow:0_0px_0_0_#7c3aed,0_0px_0_0_#7c3aed]
