@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 function Welcome() {
 
     return (
-        <div className='bg-zinc-900 overflow-hidden'>
+        <div className='bg-neutral-900 overflow-hidden'>
             <div className='h-full 2xl:h-screen flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
 
                 <motion.div 
@@ -20,7 +20,7 @@ function Welcome() {
                     >
                     <motion.h1 className='xl:text-9xl text-9xl text-white text-center mt-10 xl:mt-0 pt-20 2xl:pt-0'>Hi</motion.h1>
                     <motion.h2 className='text-4xl xl:text-6xl text-white mt-10 text-center'>I'm David Williford</motion.h2>
-                    <motion.h3 className='text-xl text-center text-gray-400 mt-10 leading-8'>I am a computer science student at East Carolina University. I am interested in software engineering, technology, mathematics and algorithms.</motion.h3>
+                    <motion.h3 className='text-xl text-center text-gray-400 mt-10 leading-8'>I am a computer science student at East Carolina University. I am interested in software engineering, technology, mathematics and algorithms. I am currently on a search for an internship for Summer 2023.</motion.h3>
 
                     <div className='flex flex-col sm:flex-row my-20 items-center justify-center w-full'>
                         

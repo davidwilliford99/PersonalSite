@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function ThankYou() {
   return (
-    <div className='h-full 2xl:h-screen bg-zinc-900 flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
+    <div className='h-full 2xl:h-screen bg-neutral-900 flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
 
       <motion.div 
             initial={{ opacity: .1, y: 50 }}
