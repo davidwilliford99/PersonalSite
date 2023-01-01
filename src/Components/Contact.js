@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div className='h-full 2xl:h-screen bg-neutral-900 flex flex-col xl:flex-row items-center justify-center xl:px-20 xl:pb-10'>
+    <div className='h-full 2xl:h-screen bg-canvas flex flex-col xl:flex-row items-center justify-center xl:px-20 xl:pb-10'>
 
         <motion.div     
                 initial={{ opacity: .1, y: 50 }}

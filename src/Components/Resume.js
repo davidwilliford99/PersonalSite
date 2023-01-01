@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Resume() {
     return (
-        <div className="h-screen*2 bg-neutral-900">
+        <div className="h-screen*2 bg-canvas">
             <motion.div 
                 className="flex flex-col items-center pb-40"
                 initial={{ opacity: .1, y: 50 }}

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className='overflow-hidden h-full xl:py-20 bg-neutral-900 flex flex-col xl:flex-row items-center justify-center xl:px-20 overflow-x-hidden tracking-wider'>
+    <div className='overflow-hidden h-full xl:py-20 bg-canvas flex flex-col xl:flex-row items-center justify-center xl:px-20 overflow-x-hidden tracking-wider'>
 
         <motion.div 
                 initial={{ opacity: .1, y: 50 }}
