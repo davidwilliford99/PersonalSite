@@ -17,11 +17,11 @@ function Contact() {
 
 
             <form action="https://formsubmit.co/WillifordD21@students.ecu.edu" method='POST' className='w-full flex flex-col items-center justify-center'>
-                <input type="text" placeholder='Your Name' name="Name" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
-                <input type="email" placeholder='Email Address' name="Email" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white'></input>
+                <input type="text" placeholder='Your Name' name="Name" required className='m-3 w-11/12 lg:w-2/3 bg-canvas border rounded-md p-4 text-white'></input>
+                <input type="email" placeholder='Email Address' name="Email" required className='m-3 w-11/12 lg:w-2/3 bg-canvas border rounded-md p-4 text-white'></input>
                 <input type="hidden" name="_captcha" value="false"></input>
                 <input type="hidden" name='_next' value='https://davidwilliford99.github.io/PersonalSite/#/ThankYou'></input>
-                <textarea type="text"  rows="5" cols="10" placeholder="Write your message here" name="message" required className='m-3 w-11/12 lg:w-2/3 bg-zinc-900 border rounded-md p-4 text-white mb-10'></textarea>
+                <textarea type="text"  rows="5" cols="10" placeholder="Write your message here" name="message" required className='m-3 w-11/12 lg:w-2/3 bg-canvas border rounded-md p-4 text-white mb-10'></textarea>
                 <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
                                     active:translate-y-2  active:[box-shadow:0_0px_0_0_#7c3aed,0_0px_0_0_#7c3aed]
                                     active:border-b-[0px]
