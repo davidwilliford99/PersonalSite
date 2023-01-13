@@ -3,7 +3,6 @@ import React from 'react';
 import ACP1 from './../assets/ACP1.png';
 import ACP2 from './../assets/ACP2.png';
 import ACP3 from './../assets/ACP3.png';
-import ACP4 from './../assets/ACP4.png';
 // TextArt Pictures
 import TA1 from './../assets/TextArt1.png';
 import TA2 from './../assets/TextArt2.png';
@@ -53,7 +52,6 @@ function Works() {
 
                     <div id='row2' className='flex flex-col 2xl:flex-row items-center justify-center'>
                         <img src={ACP3} alt='ACP3' className='w-10/12 xl:h-48 xl:w-96 m-4'></img>
-                        <img src={ACP4} alt='ACP4' className='w-10/12 xl:h-48 xl:w-96 m-4'></img>
                     </div>
                 </div>
             </div>

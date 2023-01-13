@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 function Welcome() {
 
     return (
-        <div className='bg-canvas overflow-hidden'>
+        <div className='bg-canvas overflow-hidden pb-40 xl:pt-10'>
             <div className='h-full 2xl:h-screen flex flex-col xl:flex-row items-center justify-center px-10 xl:px-20'>
 
                 <motion.div 
