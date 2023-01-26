@@ -11,28 +11,28 @@ function About() {
                 initial={{ opacity: .1, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} 
-                className='flex flex-col w-full lg:mr-20 xl:w-3/5'
+                className='flex flex-col items-center justify-center w-full lg:mr-20 xl:w-3/5'
             >
-            <h1 className='lg:text-7xl text-5xl text-white text-center my-20 xl:mt-0'>More About Me</h1>
+            <h1 className='lg:text-7xl text-5xl text-white px-5 xl:px-20 py-20 xl:py-10 pb-15 xl:mt-0 w-full'>About Me</h1>
 
-          <div className='w-full flex flex-col items-center justify-center'>
-              <h2 className='text-3xl text-center text-white my-5'>Brief Introduction</h2>
-              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto leading-9'>My name is David Williford. I am a computer science student aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering. My hobbies outside of tech include fitness, listening to podcasts, learning random things, and hanging out with friends. I currently am located in eastern North Carolina.</p>
+          <div className='w-full flex flex-col '>
+              <h2 className='text-3xl text-white my-5 px-5 xl:px-20'>Brief Introduction</h2>
+              <p className='text-xl text-gray-400 px-5 xl:px-20 w-11/12 md:w-auto leading-8'>My name is David Williford. I am a computer science student aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering. My hobbies outside of tech include fitness, listening to podcasts, learning random things, and hanging out with friends. I currently am located in eastern North Carolina.</p>
           </div>
 
-          <div className='w-full flex flex-col items-center justify-center'>
-              <h2 className='text-3xl text-center text-white mt-10 my-5'>My Mindset</h2>
-              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto leading-9'>Like most people intersted in computing, I am always thinking of the best and most effecient ways to solve problems. I always break down problems into actionable steps, and never attempt to solve a problem until I understand it conceptually. I have a very logical and linear thought process, and I enjoy things that are simple yet elegant.</p>
+          <div className='w-full flex flex-col '>
+              <h2 className='text-3xl text-white mt-10 my-5 px-5 xl:px-20'>My Mindset</h2>
+              <p className='text-xl text-gray-400 px-5 xl:px-20 w-11/12 md:w-auto leading-8'>Like most people intersted in computing, I am always thinking of the best and most effecient ways to solve problems. I always break down problems into actionable steps, and never attempt to solve a problem until I understand it conceptually. I have a very logical and linear thought process, and I enjoy things that are simple yet elegant.</p>
           </div>
 
-          <div className='w-full flex flex-col items-center justify-center mb-5'>
-              <h2 className='text-3xl text-center text-white mt-10 my-5'>My Values</h2>
-              <p className='text-xl text-center text-gray-400 mx-20 w-11/12 md:w-auto leading-9'>Organization and transparency are two values I hold dearly. I am known for being the organized person in the group, as I rarely lose or forget things or ideas. I am also extremely transparent. This comes in hand tremendously in software, since I am not afraid to ask questions or show incompetence. I believe with these two values, anyone can be succesful doing anything.</p>
+          <div className='w-full flex flex-col mb-5'>
+              <h2 className='text-3xl text-white mt-10 my-5 px-5 xl:px-20'>My Values</h2>
+              <p className='text-xl text-gray-400 px-5 xl:px-20 w-11/12 md:w-auto leading-8'>Organization and transparency are two values I hold dearly. I am known for being the organized person in the group, as I rarely lose or forget things or ideas. I am also extremely transparent. This comes in hand tremendously in software, since I am not afraid to ask questions or show incompetence. I believe with these two values, anyone can be succesful doing anything.</p>
           </div>
 
         </motion.div>
 
-        <div className='w-2/3 my-20 xl:my-0 lg:w-2/5'>
+        <div className='w-2/3 xl:my-0 lg:w-2/5 pt-5 pb-40'>
             {/* SVG here  */}
             <svg className='min-h-fit' viewBox="0 0 624 752" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="undraw_air_support_re_nybl 1" clip-path="url(#clip0_1_44)">
@@ -94,7 +94,6 @@ function About() {
                 </clipPath>
                 </defs>
             </svg>
-
         </div>
     </div>
   );

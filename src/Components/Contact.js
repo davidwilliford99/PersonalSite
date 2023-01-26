@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div className='h-full 2xl:h-screen bg-canvas flex flex-col xl:flex-row items-center justify-center xl:px-20 xl:pb-10'>
+    <div className='h-full 2xl:h-screen bg-canvas flex flex-col xl:flex-row items-center justify-center xl:px-20 xl:pb-48'>
 
         <motion.div     
                 initial={{ opacity: .1, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} 
-              className='flex flex-col w-full lg:mr-20 xl:w-3/5 min'
+              className='flex items-center justify-center flex-col w-full lg:mr-20 xl:w-3/5 min'
               >
           <h1 className='lg:text-7xl text-5xl text-white text-center pt-20 xl:mt-0'>Contact Me</h1>
-          <h3 className='text-xl text-center text-gray-400 mt-5 mb-3 xl:mb-5'>All messages are appreciated and answered ASAP via email</h3>
+          <h3 className='text-xl text-center text-gray-400 mt-5 mb-3 xl:mb-5 xl:w-4/5'>All messages are appreciated and answered</h3>
 
 
             <form action="https://formsubmit.co/WillifordD21@students.ecu.edu" method='POST' className='w-full flex flex-col items-center justify-center'>

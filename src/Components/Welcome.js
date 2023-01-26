@@ -16,7 +16,7 @@ function Welcome() {
                         initial={{ opacity: .1, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }} 
-                        className='flex flex-col items-center justify-center xl:mx-32 xl:w-3/5 min'
+                        className='flex flex-col items-center justify-center xl:mx-32 xl:w-4/5 min'
                     >
                     <motion.h1 className='xl:text-9xl text-9xl text-white text-center mt-10 xl:mt-0 pt-20 2xl:pt-0'>Hi</motion.h1>
                     <motion.h2 className='text-4xl xl:text-6xl text-white mt-10 text-center'>I'm David Williford</motion.h2>
@@ -30,7 +30,7 @@ function Welcome() {
                                     transition-all duration-150 [box-shadow:0_10px_0_0_#854d0e,0_15px_0_0_#27272a]
                                     border-b-[1px] border-yellow-700 mx-5 px-10 my-6 sm:my-0
                                 '>
-                                    <Link to="/About" class='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>More About Me</Link>
+                                    <Link to="/About" class='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>About Me</Link>
                         </div>
 
                         <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
@@ -39,7 +39,7 @@ function Welcome() {
                                     transition-all duration-150 [box-shadow:0_10px_0_0_#854d0e,0_15px_0_0_#27272a]
                                     border-b-[1px] border-yellow-700 mx-5 px-10 my-6 sm:my-0
                                 '>
-                                    <Link to="/Resume" class='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>See My Resume</Link>
+                                    <Link to="/Resume" class='flex flex-col justify-center items-center h-full text-white font-bold text-lg '>My Resume</Link>
                         </div>
 
 

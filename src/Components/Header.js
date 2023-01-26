@@ -17,10 +17,10 @@ function Header() {
             </div>
 
             <div class="hidden sm:flex sm:items-center ml-24 text-slate-100">
-              <Link to="/Works" class="text-center text-md font-semibold hover:text-zinc-900 duration-500 mx-4">Works</Link>
+              <Link to="/Works" class="text-center text-md font-semibold hover:text-zinc-900 duration-500 mr-4 ml-6">Works</Link>
               <Link to="/Contact" class="text-center text-md font-semibold hover:text-zinc-900  duration-500 mx-4">Contact</Link>
               <Link to="/About" class="text-center text-md font-semibold hover:text-zinc-900  duration-500 mx-4">About</Link>
-              <Link to="/Resume" class="text-center text-md font-semibold duration-500 hover:text-zinc-900 ">Resume</Link>
+              <Link to="/Resume" class="text-center text-md font-semibold duration-500 hover:text-zinc-900 ml-4">Resume</Link>
             </div>
 
             <div class="lg:visible invisible hidden sm:flex sm:items-center">
