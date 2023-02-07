@@ -11,7 +11,7 @@ function About() {
                 initial={{ opacity: .1, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} 
-                className='flex flex-col items-center justify-center w-full lg:mr-20 xl:w-3/5'
+                className='flex flex-col items-center justify-center w-full lg:pr-20 xl:w-3/5'
             >
             <h1 className='lg:text-7xl text-5xl text-white px-5 xl:px-20 py-20 xl:py-10 pb-15 xl:mt-0 w-full'>About Me</h1>
 

@@ -22,29 +22,32 @@ import { motion } from "framer-motion";
 
 function Works() {
   return (
-    <div className='h-full bg-canvas pb-20'>
-
-        <h1 className='lg:text-7xl text-5xl text-white text-center py-20 xl:pb-0 xl:mt-0 xl:mb-10'>My Works</h1>
+    <div className='h-full bg-canvas 2xl:px-10 pb-20'>
 
         <motion.div 
-                className='flex flex-col items-center justify-center xl:px-20'
-                initial={{ opacity: .5, y: 30 }}
+                className='flex flex-col items-center justify-center xl:px-20 py-14'
+                initial={{ opacity: .1, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} 
                 >
 
 
+            <div className='w-full flex flex-col items-center xl:flex-row py-10 pt-24 2xl:pt-20'>
+                <div id='text-description' className='w-full xl:w-1/2 flex flex-col items-center justify-center mb-10'>
+                    <h2 className='w-11/12 text-7xl text-white'>My Works</h2>
+                </div>
+            </div>
 
             {/* Work Divider ======================================================================================= */}
 
 
-            <div className='w-full flex flex-col items-center xl:flex-row mb-30 border-b-2 pt-10 border-t-2 pb-20'>
-                <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center mb-10'>
+            <div className='w-full flex flex-col items-center xl:flex-row mb-30 border-b 2xl:pt-10 pb-20'>
+                <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center mb-10 xl:mr-10'>
                     <h2 className='w-11/12 text-3xl text-white'>ACP Web-App</h2>
                     <h3 className='w-11/12 text-xl text-white my-5'>Angular, Typescript, Java Spring, Git</h3>
                     <p className='text-xl text-gray-400 w-11/12 mxl:w-auto leading-8'>During my internship at Autonomic Solutions, I worked on the ACP webapp. ACP stands for "Autonomic Computing Platform". This application simplifies the process of creating and managing cloud infrastrucures. I worked under 2 senior devs and along 2 other interns, and gathered equal experience with frontend and backend web development (Angular & Java Spring). I was very fortunate to work along with these people, and the senior devs made sure that us interns got plenty of hands on experience. Sadly I can not share the repository for this application, since I do not own the software.</p>
                 </div>
-                <div id='images' className='xl:w-1/2 flex flex-col items-center justify-center xl:py-20'>
+                <div id='images' className='xl:w-1/2 flex flex-col items-center justify-center'>
                     <div id='row1' className='flex flex-col 2xl:flex-row  items-center justify-center'>
                         <img src={ACP1} alt='ACP1' className='w-10/12 xl:h-48 xl:w-96 m-4'></img>
                         <img src={ACP2} alt='ACP2' className='w-10/12 xl:h-48 xl:w-96 m-4'></img>
@@ -61,8 +64,8 @@ function Works() {
 
 
             
-            <div className='w-full flex flex-col xl:flex-row mb-30 border-b-2'>
-                <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center pt-10'>
+            <div className='w-full flex flex-col xl:flex-row mb-30 border-b'>
+                <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center pt-10 xl:mr-10'>
                     <h2 className='w-11/12 text-3xl text-white'>MajorStatistics Web-App</h2>
                     <h3 className='w-11/12 text-xl text-white my-5'>React, Spring Boot, MySQL</h3>
                     <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
@@ -93,8 +96,8 @@ function Works() {
             {/* Work Divider ======================================================================================= */}
 
 
-            <div className='w-full flex flex-col xl:flex-row mb-30 border-b-2'>
-                <div id='text-description' className='w-11/12 xl:w-1/2 flex flex-col items-center justify-center py-20'>
+            <div className='w-full flex flex-col xl:flex-row mb-30 border-b'>
+                <div id='text-description' className='w-11/12 xl:w-1/2 flex flex-col items-center justify-center py-20 xl:mr-10'>
                     <h2 className='w-11/12 text-3xl text-white'>TextArt (CSCI-2530)</h2>
                     <h3 className='w-11/12 text-xl text-white my-5'>C/C++, Visual Studio</h3>
                     <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
@@ -126,7 +129,7 @@ function Works() {
 
 
             <div className='w-full flex flex-col xl:flex-row items-center mb-30'>
-                <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center py-20'>
+                <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center py-20 xl:mr-10'>
                     <h2 className='w-11/12 text-3xl text-white'>My Personal Website</h2>
                     <h3 className='w-11/12 text-xl text-white my-5'>React, Tailwind CSS</h3>
                     <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
