@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className='overflow-hidden h-full xl:py-20 bg-canvas flex flex-col xl:flex-row items-center justify-center xl:px-20 overflow-x-hidden tracking-wider'>
+    <div className='overflow-hidden h-full xl:py-20 bg-canvas flex flex-col xl:flex-row items-center justify-center 2xl:px-20 overflow-x-hidden tracking-wider'>
 
         <motion.div 
                 initial={{ opacity: .1, y: 50 }}
@@ -13,21 +13,21 @@ function About() {
                 transition={{ duration: 0.5 }} 
                 className='flex flex-col items-center justify-center w-full lg:pr-20 xl:w-3/5'
             >
-            <h1 className='lg:text-7xl text-5xl text-white px-5 xl:px-20 py-20 xl:py-10 pb-15 xl:mt-0 w-full'>About Me</h1>
+            <h1 className='lg:text-7xl text-5xl text-white px-5 xl:px-10 2xl:px-20 py-20 xl:py-10 pb-15 xl:mt-0 w-full'>About Me</h1>
 
           <div className='w-full flex flex-col '>
-              <h2 className='text-3xl text-white my-5 px-5 xl:px-20'>Brief Introduction</h2>
-              <p className='text-xl text-gray-400 px-5 xl:px-20 w-11/12 md:w-auto leading-8'>My name is David Williford. I am a computer science student aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering. My hobbies outside of tech include fitness, listening to podcasts, learning random things, and hanging out with friends. I currently am located in eastern North Carolina.</p>
+              <h2 className='text-3xl text-white my-5 xl:px-10 2xl:px-20'>Brief Introduction</h2>
+              <p className='text-xl text-gray-400 xl:px-10 2xl:px-20 w-11/12 md:w-auto leading-8'>My name is David Williford. I am a computer science student aiming to begin a career in software engineering. I'm interested in technology, mathematics, algorithms and software engineering. My hobbies outside of tech include fitness, listening to podcasts, learning random things, and hanging out with friends. I currently am located in eastern North Carolina.</p>
           </div>
 
           <div className='w-full flex flex-col '>
-              <h2 className='text-3xl text-white mt-10 my-5 px-5 xl:px-20'>My Mindset</h2>
-              <p className='text-xl text-gray-400 px-5 xl:px-20 w-11/12 md:w-auto leading-8'>Like most people intersted in computing, I am always thinking of the best and most effecient ways to solve problems. I always break down problems into actionable steps, and never attempt to solve a problem until I understand it conceptually. I have a very logical and linear thought process, and I enjoy things that are simple yet elegant.</p>
+              <h2 className='text-3xl text-white mt-10 my-5 xl:px-10 2xl:px-20'>My Mindset</h2>
+              <p className='text-xl text-gray-400 px-5 xl:px-10 2xl:px-20 w-11/12 md:w-auto leading-8'>Like most people intersted in computing, I am always thinking of the best and most effecient ways to solve problems. I always break down problems into actionable steps, and never attempt to solve a problem until I understand it conceptually. I have a very logical and linear thought process, and I enjoy things that are simple yet elegant.</p>
           </div>
 
           <div className='w-full flex flex-col mb-5'>
-              <h2 className='text-3xl text-white mt-10 my-5 px-5 xl:px-20'>My Values</h2>
-              <p className='text-xl text-gray-400 px-5 xl:px-20 w-11/12 md:w-auto leading-8'>Organization and transparency are two values I hold dearly. I am known for being the organized person in the group, as I rarely lose or forget things or ideas. I am also extremely transparent. This comes in hand tremendously in software, since I am not afraid to ask questions or show incompetence. I believe with these two values, anyone can be succesful doing anything.</p>
+              <h2 className='text-3xl text-white mt-10 my-5 px-5 xl:px-10 2xl:px-20'>My Values</h2>
+              <p className='text-xl text-gray-400 px-5 xl:px-10 2xl:px-20 w-11/12 md:w-auto leading-8'>Organization and transparency are two values I hold dearly. I am known for being the organized person in the group, as I rarely lose or forget things or ideas. I am also extremely transparent. This comes in hand tremendously in software, since I am not afraid to ask questions or show incompetence. I believe with these two values, anyone can be succesful doing anything.</p>
           </div>
 
         </motion.div>

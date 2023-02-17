@@ -42,7 +42,7 @@ function Works() {
 
 
             <div className='w-full flex flex-col items-center xl:flex-row mb-30 border-b 2xl:pt-10 pb-20'>
-                <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center mb-10 xl:mr-10'>
+                <div id='text-description' className='xl:w-1/2 flex flex-col items-center justify-center mb-10 xl:mr-12'>
                     <h2 className='w-11/12 text-3xl text-white'>ACP Web-App</h2>
                     <h3 className='w-11/12 text-xl text-white my-5'>Angular, Typescript, Java Spring, Git</h3>
                     <p className='text-xl text-gray-400 w-11/12 mxl:w-auto leading-8'>During my internship at Autonomic Solutions, I worked on the ACP webapp. ACP stands for "Autonomic Computing Platform". This application simplifies the process of creating and managing cloud infrastrucures. I worked under 2 senior devs and along 2 other interns, and gathered equal experience with frontend and backend web development (Angular & Java Spring). I was very fortunate to work along with these people, and the senior devs made sure that us interns got plenty of hands on experience. Sadly I can not share the repository for this application, since I do not own the software.</p>
