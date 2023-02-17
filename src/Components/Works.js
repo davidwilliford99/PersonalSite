@@ -25,14 +25,14 @@ function Works() {
     <div className='h-full bg-canvas 2xl:px-10 pb-20'>
 
         <motion.div 
-                className='flex flex-col items-center justify-center xl:px-20 py-14'
+                className='flex flex-col items-center justify-center xl:px-10 2xl:px-20 py-14'
                 initial={{ opacity: .1, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} 
                 >
 
 
-            <div className='w-full flex flex-col items-center xl:flex-row py-10 pt-24 2xl:pt-20'>
+            <div className='w-full flex flex-col items-center xl:flex-row pt-20 2xl:pt-20'>
                 <div id='text-description' className='w-full xl:w-1/2 flex flex-col items-center justify-center mb-10'>
                     <h2 className='w-11/12 text-7xl text-white'>My Works</h2>
                 </div>
