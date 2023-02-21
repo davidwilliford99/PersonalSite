@@ -18,10 +18,10 @@ function Welcome() {
                         transition={{ duration: 0.5 }} 
                         className='flex flex-col justify-center xl:mx-10 xl:w-3/5'
                     >
-                    <motion.h2 className='w-full text-4xl xl:text-6xl text-white mt-10 text-center xl:text-left'>I am David Williford</motion.h2>
-                    <motion.h3 className='2xl:w-4/5 text-xl text-gray-400 mt-10 leading-8 text-center xl:text-left'>A computer science student at East Carolina University. I enjoy building and learning about software.</motion.h3>
+                    <motion.h2 className='w-full text-6xl xl:text-6xl text-white md:mt-10 md:text-center xl:text-left'>I am David Williford</motion.h2>
+                    <motion.h3 className='2xl:w-4/5 text-xl text-gray-400 mt-10 leading-8 md:text-center xl:text-left'>A computer science student at East Carolina University. I enjoy building and learning about software.</motion.h3>
 
-                    <div className='flex flex-col sm:flex-row my-28 sm:mt-10 w-full items-center xl:items-start justify-center xl:justify-start'>
+                    <div className='flex flex-col sm:flex-row my-20 sm:mt-10 w-full items-center xl:items-start justify-center xl:justify-start'>
                         
                         <div class='button w-10/12 sm:w-auto h-16 bg-yellow-600 rounded-lg cursor-pointer select-none
                                     active:translate-y-2  active:[box-shadow:0_0px_0_0_#7c3aed,0_0px_0_0_#7c3aed]
